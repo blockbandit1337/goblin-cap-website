@@ -82,6 +82,18 @@ const TwitterBird = styled(AiOutlineTwitter)`
   font-size: 24px;
 `;
 
+const TwitterButton = styled.a`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-left: 8px;
+`;
+
 const App = () => {
   const [showDescription, setShowDescription] = useState(false);
 
@@ -101,7 +113,7 @@ const App = () => {
           <Description>
             <span>&gt; </span>
             <Typewriter
-              words={['Goblin Capital: Unleashing Chaos in Crypto. We are a collective of crypto-native traders and engineers, specializing in MEV and trading. We shitpost, invest and consult.']}
+              words={['Goblin Capital: Unleashing Chaos in Crypto. We are a collective of crypto-native traders and engineers, specializing in MEV, arbitrage and on chain strategies. We shitpost, invest and consult. Want to work with us? Reach out.']}
               loop={1}
               cursor
               cursorStyle="|"
@@ -113,8 +125,11 @@ const App = () => {
           </Description>
         )}
         <ButtonContainer>
-          <Button>Portfolio</Button>
-          <Button>Writings</Button>
+          <TwitterButton href={"/portfolio"}>Portfolio</TwitterButton>
+          <TwitterButton href={"/writing"}>Writings</TwitterButton>
+          <TwitterButton href={"https://twitter.com/GoblinCap_"} target="_blank" rel="noopener noreferrer">
+            Contact Us
+          </TwitterButton>
         </ButtonContainer>
         {showDescription && (
         <LinkContainer>
