@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goblin-cap-website/static/css/main.e6c13ad2.css",
+    "main.js": "/goblin-cap-website/static/js/main.74e9158f.js",
+    "static/js/787.594d60cc.chunk.js": "/goblin-cap-website/static/js/787.594d60cc.chunk.js",
+    "index.html": "/goblin-cap-website/index.html",
+    "main.e6c13ad2.css.map": "/goblin-cap-website/static/css/main.e6c13ad2.css.map",
+    "main.74e9158f.js.map": "/goblin-cap-website/static/js/main.74e9158f.js.map",
+    "787.594d60cc.chunk.js.map": "/goblin-cap-website/static/js/787.594d60cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.74e9158f.js"
+  ]
+}
